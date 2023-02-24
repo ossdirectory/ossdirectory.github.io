@@ -9,11 +9,12 @@ external-url: "https://www.ch-open.ch"
 
 {{ page.description }}
 
-{% for category in site.categories.ch-open %}
-  <h3>{{ category[0] }}</h3>
-  <ul>
-    {% for post in category[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<h2>Posts</h2>
+
+<ul>
+  {% for post in site.categories.ch-open %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
