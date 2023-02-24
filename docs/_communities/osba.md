@@ -1,5 +1,5 @@
 ---
-title: "OSBA"
+title: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
 layout: page
 external-url: "https://osb-alliance.de"
 ---
