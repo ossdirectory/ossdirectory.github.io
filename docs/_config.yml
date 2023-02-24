@@ -16,6 +16,8 @@ collections:
   communities:
     output: true
 
+future: true
+
 email: info@ch-open.ch
 author: CH Open
 
