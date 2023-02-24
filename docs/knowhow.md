@@ -1,5 +1,5 @@
 ---
 layout: default
-title: KnowHow
+title: Know-How
 ---
 # Know-How
