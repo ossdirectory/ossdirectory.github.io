@@ -11,3 +11,7 @@ title: Communities
     </li>
   {% endfor %}
 </ul>
+
+{% for community in site.communities %}
+  <h2>{{ community.title }}</h2>
+{% endfor %}
