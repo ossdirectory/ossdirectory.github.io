@@ -5,7 +5,7 @@ title: Communities
 # Communities
 
 <ul>
-  {% for post in communities.posts %}
+  {% for post in site.posts %}
     <li>
       <a href=".{{ post.url }}">{{ post.title }}</a>
     </li>
