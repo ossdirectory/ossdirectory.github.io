@@ -2,7 +2,15 @@ title: OSS Directory
 description: Welcome to the OSS Directory, the largest open source vendor directory!  
 theme: minima
 header_pages:
-  - about.md
+  - news.md
+  - products.md
+  - vendors.md
+  - user.md
+  - success-stories.md
+  - events.md
+  - communities.md
+  - jobs.md
+  - knowhow.md
 
 email: info@ch-open.ch
 author: CH Open
