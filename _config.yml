@@ -1,0 +1,11 @@
+title: OSS Directory
+description: Welcome to the OSS Directory, the largest open source vendor directory!  
+theme: minima
+header_pages:
+  - about.md
+
+email: info@ch-open.ch
+author: CH Open
+
+twitter_username: CH_Open
+github_username:  ossdirectory
