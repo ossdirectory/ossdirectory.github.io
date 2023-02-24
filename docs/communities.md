@@ -18,5 +18,5 @@ title: Communities
 <h2>via collections</h2>
 
 {% for community in site.communities %}
-  <h3>{{ community.title }}</h3>
+  <h3><a href="{{ community.url }}">{{ community.title }}</a></h3>
 {% endfor %}
