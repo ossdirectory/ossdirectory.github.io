@@ -1,5 +1,5 @@
 ---
-title: "OSSBIG | Austria"
+title: "OSSBIG Austria"
 layout: page
 external-url: "https://www.ossbig.at"
 ---
