@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Success Stories
+title: Success-Stories
 ---
-# Success Stories
+# Success-Stories
