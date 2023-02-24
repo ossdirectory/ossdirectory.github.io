@@ -12,6 +12,10 @@ header_pages:
   - jobs.md
   - knowhow.md
 
+collections:
+  communities:
+    output: true
+
 email: info@ch-open.ch
 author: CH Open
 
