@@ -4,6 +4,8 @@ title: Communities
 ---
 # Communities
 
+<h2>via posts</h2>
+
 <ul>
   {% for post in site.posts %}
     <li>
@@ -12,6 +14,9 @@ title: Communities
   {% endfor %}
 </ul>
 
+
+<h2>via collections</h2>
+
 {% for community in site.communities %}
-  <h2>{{ community.title }}</h2>
+  <h3>{{ community.title }}</h3>
 {% endfor %}
