@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Nutzer
+title: 🙋 Nutzer
 ---
 # Nutzer
