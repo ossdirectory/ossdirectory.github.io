@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Know-How
+title: 💡 Know-How
 ---
 # Know-How
