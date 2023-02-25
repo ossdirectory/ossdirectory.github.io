@@ -23,3 +23,8 @@ author: CH Open
 
 twitter_username: CH_Open
 github_username:  ossdirectory
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
