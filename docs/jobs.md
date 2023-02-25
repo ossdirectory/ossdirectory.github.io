@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Jobs
+title: 🧑‍💻 Jobs
 ---
 # Jobs
