@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Communities
+title: 👥 Communities
 ---
 # Communities
 
