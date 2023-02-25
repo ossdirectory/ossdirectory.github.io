@@ -30,3 +30,4 @@ minima:
     - { platform: github, user_url: "https://github.com/ch-open/" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/company/ch-open/" }
     - { platform: twitter, user_url: "https://twitter.com/ch_open" }
+    - { platform: youtube, user_url: "https://www.youtube.com/@CHOpen" }
