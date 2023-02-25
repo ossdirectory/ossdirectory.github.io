@@ -1,8 +1,10 @@
 title: OSS Directory
 description: Welcome to the OSS Directory, the largest open source vendor directory!  
+
+remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
-remote_theme: jekyll/minima
+
 header_pages:
   - news.md
   - products.md
