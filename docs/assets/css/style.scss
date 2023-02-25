@@ -1,0 +1,12 @@
+// https://github.com/jekyll/minima/issues/474
+// does not seem to work ATM: https://github.com/jekyll/minima#customizing-templates
+---
+---
+// my custom variables that Minima can use here
+
+@import "minima-{{ site.minima.skin | default: 'classic' }}";
+
+// my custom CSS rules that override Minima's rules here
+
+// https://github.com/jekyll/minima/blob/master/_sass/minima/initialize.scss#L16
+$content-width:    95%;
