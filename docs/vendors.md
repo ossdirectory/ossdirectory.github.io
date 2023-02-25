@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Anbieter
+title: 🏢 Anbieter
 ---
 # Anbieter
