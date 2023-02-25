@@ -2,8 +2,6 @@
 layout: page
 title: 📅 Events
 ---
-# Events
-
 <ul>
   {% for post in site.posts %}
     <li>
