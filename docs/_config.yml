@@ -3,6 +3,8 @@ description: Welcome to the OSS Directory, the largest open source vendor direct
 
 remote_theme: jekyll/minima
 
+show_excerpts: true
+
 header_pages:
   - news.md
   - products.md
