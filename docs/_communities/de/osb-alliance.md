@@ -8,7 +8,7 @@ external-url: "https://osb-alliance.de"
 <h2>Events</h2>
 
 <ul>
-  {% for post in site.categories.osb-alliance %}
+  {% for post in site.categories.de.osb-alliance %}
     <li>
       <a href="{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
     </li>
