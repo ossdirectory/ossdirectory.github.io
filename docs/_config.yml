@@ -22,6 +22,7 @@ header_pages:
   - jobs.md
   - knowhow.md
 
+collections_dir: collections
 collections:
   events:
     output: true
