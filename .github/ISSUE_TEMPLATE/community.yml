@@ -13,11 +13,14 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
-- type: input
-  id: title
+- type: markdown
   attributes:
-    label: Community Title
-    description: A concise title of the Community.
+    value: "# Description"
+- type: input
+  id: name
+  attributes:
+    label: Community Name
+    description: A concise name of the Community.
   validations:
     required: true
 - type: textarea
@@ -34,3 +37,6 @@ body:
     placeholder: "https://github.com/community"
   validations:
     required: true
+- type: markdown
+  attributes:
+    value: "# Member"
