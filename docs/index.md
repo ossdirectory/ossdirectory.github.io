@@ -8,7 +8,7 @@ layout: page
 ## Premiummitglieder
 <ul>
 {% for member in site.data.ch.ch-open.members %}
-  <li> {{ member.identifier }} </li>
+  <li> <a href="{{ site.url }}/vendors/{{ member.country }}/{{ member.identifier }}.html">{{ member.name }}</a> </li>
 {% endfor %}
 </ul>
 
