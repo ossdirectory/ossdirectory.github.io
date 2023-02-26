@@ -3,8 +3,7 @@ layout: page
 title: 📅 Events
 ---
 <ul>
-  {% assign posts = site.posts | where:"category","events" %}
-  {% for post in posts %}
+  {% for post in site.events %}
     <li>
       <a href=".{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
     </li>
