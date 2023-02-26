@@ -40,10 +40,28 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: Description
-    description: A concise description of the event.
+    label: Description - DE
+    description: A concise description of the Community in German.
   validations:
     required: true
+- type: textarea
+  attributes:
+    label: Description - FR
+    description: A concise description of the Community in French.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Description - EN
+    description: A concise description of the Community in English.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Description - IT
+    description: A concise description of the Community in Italian.
+  validations:
+    required: false
 - type: input
   id: url
   attributes:
