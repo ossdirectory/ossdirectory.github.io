@@ -4,7 +4,7 @@ layout: page
 description: "Verein zur Förderung von Open Source Software und offenen Standards in der Schweiz"
 external-url: "https://www.ch-open.ch"
 external-logo: "https://www.ch-open.ch/wp-content/uploads/2019/04/logo_chopen_web_big-1.png"
-identifier: "ch.ch-open"
+identifier: "ch-open"
 ---
 
 [![](page.external-logo)]({{ page.external-url }})
