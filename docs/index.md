@@ -7,7 +7,7 @@ layout: page
 
 <h2>Premiummitglieder</h2>
 <ul>
-{% for member in site.data.ch-open_members %}
+{% for member in site.data.ch.ch-open.members %}
   <li> {{ member.identifier }} </li>
 {% endfor %}
 </ul>
