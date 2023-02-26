@@ -4,3 +4,13 @@ layout: page
 external-url: "https://osb-alliance.de"
 ---
 [![](https://osb-alliance.de/wp-content/uploads/2020/04/osba-logo-claim.svg)]({{ page.external-url }})
+
+<h2>Events</h2>
+
+<ul>
+  {% for post in site.categories.osb-alliance %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
