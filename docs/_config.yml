@@ -23,7 +23,13 @@ header_pages:
   - knowhow.md
 
 collections:
+  events:
+    output: true
+  jobs:
+    output: true
   communities:
+    output: true
+  stories:
     output: true
   vendors:
     output: true
