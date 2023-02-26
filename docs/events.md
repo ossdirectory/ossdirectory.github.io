@@ -3,9 +3,9 @@ layout: page
 title: 📅 Events
 ---
 <ul>
-  {% for post in site.posts %}
+  {% for event in site.events %}
     <li>
-      <a href=".{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
+      <a href=".{{ event.url }}">{{ event.date }} - {{ event.title }}</a>
     </li>
   {% endfor %}
 </ul>
