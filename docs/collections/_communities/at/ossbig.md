@@ -10,7 +10,7 @@ external-logo: "https://www.ossbig.at/wp-content/uploads/2021/08/OSSBIG-Logo_Web
 
 {{ page.tagline }}
 
-<h2>Events</h2>
+<h2>Posts</h2>
 
 <ul>
   {% for post in site.categories.ossbig %}

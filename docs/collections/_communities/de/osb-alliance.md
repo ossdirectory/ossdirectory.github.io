@@ -10,7 +10,7 @@ external-logo: "https://osb-alliance.de/wp-content/uploads/2020/04/osba-logo-cla
 
 {{ page.tagline }}
 
-<h2>Events</h2>
+<h2>Posts</h2>
 
 <ul>
   {% for post in site.categories.osb-alliance %}

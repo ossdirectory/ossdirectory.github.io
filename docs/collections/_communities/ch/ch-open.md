@@ -10,7 +10,7 @@ external-logo: "https://www.ch-open.ch/wp-content/uploads/2019/04/logo_chopen_we
 
 {{ page.tagline }}
 
-<h2>Events</h2>
+<h2>Posts</h2>
 
 <ul>
   {% for post in site.categories.ch-open %}
