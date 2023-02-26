@@ -15,7 +15,7 @@ external-logo: "https://www.ossbig.at/wp-content/uploads/2021/08/OSSBIG-Logo_Web
 <ul>
   {% for post in site.categories.ossbig %}
     <li>
-      <a href="{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.date | date: site.minima.date_format }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

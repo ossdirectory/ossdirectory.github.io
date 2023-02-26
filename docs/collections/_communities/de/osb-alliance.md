@@ -15,7 +15,7 @@ external-logo: "https://osb-alliance.de/wp-content/uploads/2020/04/osba-logo-cla
 <ul>
   {% for post in site.categories.osb-alliance %}
     <li>
-      <a href="{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.date | date: site.minima.date_format }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
