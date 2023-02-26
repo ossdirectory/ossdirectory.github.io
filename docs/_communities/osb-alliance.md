@@ -10,7 +10,7 @@ external-url: "https://osb-alliance.de"
 <ul>
   {% for post in site.categories.osb-alliance %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
