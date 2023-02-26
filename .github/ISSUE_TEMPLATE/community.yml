@@ -1,0 +1,36 @@
+name: 👥 Community
+description: Add a new Community
+title: "[Community] <title>"
+labels: [Community]
+body:
+- type: markdown
+  attributes:
+    value: "## Thank you for contributing to our project!"
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue already exists for the community you encountered.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: input
+  id: title
+  attributes:
+    label: Community Title
+    description: A concise title of the Community.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Community Description
+    description: A concise description of the Community.
+  validations:
+    required: true
+- type: input
+  id: url
+  attributes:
+    label: Community URL
+    description: "Where does your community reside?"
+    placeholder: "https://github.com/community"
+  validations:
+    required: true
