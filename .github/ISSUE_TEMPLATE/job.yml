@@ -1,0 +1,5 @@
+name: Job 🧑‍💻
+description: Add a new Job
+title: "[Job] <title>"
+labels: [Job]
+body:

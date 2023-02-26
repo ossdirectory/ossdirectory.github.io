@@ -1,0 +1,5 @@
+name: News 📰
+description: Add a new News
+title: "[News] <title>"
+labels: [News]
+body:
