@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Success-Stories 🌟
+title: SUCESS STORIES 🌟
 ---
 <ul>
   {% for post in site.categories.stories %}

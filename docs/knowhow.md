@@ -1,4 +1,4 @@
 ---
 layout: page
-title: Know-How 💡
+title: KNOWHOW 💡
 ---

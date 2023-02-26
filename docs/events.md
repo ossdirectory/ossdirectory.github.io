@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Events 📅
+title: EVENTS 📅
 ---
 <ul>
   {% for post in site.categories.events %}

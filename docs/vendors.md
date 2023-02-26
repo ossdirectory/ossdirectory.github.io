@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Anbieter 🏢
+title: ANBIETER 🏢
 ---
 
 {% for vendor in site.vendors %}

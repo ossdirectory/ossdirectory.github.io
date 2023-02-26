@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Communities 👥
+title: COMMUNITIES 👥
 ---
 {% for community in site.communities %}
   <h2><a href="{{ community.url }}">{{ community.title }}</a></h2>
