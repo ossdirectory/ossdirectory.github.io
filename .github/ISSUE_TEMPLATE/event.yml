@@ -1,0 +1,70 @@
+name: 📅 Event
+description: Add a new Event
+title: "[Event] <title>"
+labels: [Event]
+body:
+- type: markdown
+  attributes:
+    value: "## Thank you for contributing to our project!"
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue already exists for the community you encountered.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: markdown
+  attributes:
+    value: "# Event Description"
+- type: input
+  id: logo-url
+  attributes:
+    label: Logo URL
+    description: "Where does your event logo reside?"
+    placeholder: "https://github.com/logos"
+  validations:
+    required: true
+- type: input
+  id: title
+  attributes:
+    label: Title
+    description: A concise title of the event.
+  validations:
+    required: true
+- type: input
+  id: subtitle
+  attributes:
+    label: Subtitle
+    description: A concise subtitle of the event.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Description
+    description: A concise description of the event.
+  validations:
+    required: true
+- type: input
+  id: url
+  attributes:
+    label: URL
+    description: "Where does your event reside?"
+    placeholder: "https://github.com/community"
+  validations:
+    required: true
+- type: input
+  id: date
+  attributes:
+    label: Date & Time
+    description: Date and time of the event.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Location
+    description: Location of the event.
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: "# Additional"
