@@ -1,0 +1,7 @@
+// https://github.com/jekyll/minima/blob/master/_sass/minima/custom-styles.scss
+
+.site-title::before {
+	content: url("https://minio.digisus.ch/ossdirectory-assets/OSSD_Logo_rgb.svg");
+	display: inline-block;
+	position: relative;
+}
