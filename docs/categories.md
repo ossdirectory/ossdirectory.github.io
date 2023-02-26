@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Categories
+title: Categories 📊
 ---
 {% for category in site.categories %}
   <h3>{{ category[0] }}</h3>

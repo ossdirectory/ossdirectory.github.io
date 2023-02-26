@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 🧑‍💻 Jobs
+title: Jobs 🧑‍💻
 ---
 <ul>
   {% for post in site.categories.jobs %}
