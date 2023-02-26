@@ -17,6 +17,14 @@ body:
   attributes:
     value: "# Description"
 - type: input
+  id: logo-url
+  attributes:
+    label: Community Logo URL
+    description: "Where does your community logo reside?"
+    placeholder: "https://github.com/logos"
+  validations:
+    required: true
+- type: input
   id: name
   attributes:
     label: Community Name
