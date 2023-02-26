@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 📅 Events
+title: 🌟 Success-Stories
 ---
 <ul>
   {% for post in site.posts %}

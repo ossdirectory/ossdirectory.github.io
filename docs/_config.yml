@@ -16,7 +16,7 @@ header_pages:
   - products.md
   - vendors.md
   - user.md
-  - success-stories.md
+  - stories.md
   - events.md
   - communities.md
   - jobs.md
@@ -24,13 +24,7 @@ header_pages:
 
 collections_dir: collections
 collections:
-  events:
-    output: true
-  jobs:
-    output: true
   communities:
-    output: true
-  stories:
     output: true
   vendors:
     output: true

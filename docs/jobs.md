@@ -3,9 +3,9 @@ layout: page
 title: 🧑‍💻 Jobs
 ---
 <ul>
-  {% for job in site.jobs %}
+  {% for post in site.posts %}
     <li>
-      <a href=".{{ job.url }}">{{ job.date }} - {{ job.title }}</a>
+      <a href=".{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
