@@ -14,7 +14,7 @@ external-url: "https://www.ch-open.ch"
 <ul>
   {% for post in site.categories.ch-open %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
