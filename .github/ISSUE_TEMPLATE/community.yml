@@ -15,11 +15,11 @@ body:
       required: true
 - type: markdown
   attributes:
-    value: "# Description"
+    value: "# Community Description"
 - type: input
   id: logo-url
   attributes:
-    label: Community Logo URL
+    label: Logo URL
     description: "Where does your community logo reside?"
     placeholder: "https://github.com/logos"
   validations:
@@ -27,20 +27,20 @@ body:
 - type: input
   id: name
   attributes:
-    label: Community Name
+    label: Name
     description: A concise name of the Community.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Community Description
+    label: Description
     description: A concise description of the Community.
   validations:
     required: true
 - type: input
   id: url
   attributes:
-    label: Community URL
+    label: URL
     description: "Where does your community reside?"
     placeholder: "https://github.com/community"
   validations:
