@@ -2,3 +2,10 @@ name: Story 🌟
 description: Add a new Story
 title: "[Story] <title>"
 labels: [Story]
+body:
+- type: textarea
+  attributes:
+    label: Description - DE
+    description: A concise description in German.
+  validations:
+    required: true

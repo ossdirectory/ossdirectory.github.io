@@ -3,3 +3,9 @@ description: Add a new News
 title: "[News] <title>"
 labels: [News]
 body:
+- type: textarea
+  attributes:
+    label: Description - DE
+    description: A concise description in German.
+  validations:
+    required: true

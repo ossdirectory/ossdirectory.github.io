@@ -3,3 +3,9 @@ description: Add a new Vendor
 title: "[Vendor] <title>"
 labels: [Vendor]
 body:
+- type: textarea
+  attributes:
+    label: Description - DE
+    description: A concise description in German.
+  validations:
+    required: true

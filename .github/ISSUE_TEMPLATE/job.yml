@@ -3,3 +3,9 @@ description: Add a new Job
 title: "[Job] <title>"
 labels: [Job]
 body:
+- type: textarea
+  attributes:
+    label: Description - DE
+    description: A concise description in German.
+  validations:
+    required: true

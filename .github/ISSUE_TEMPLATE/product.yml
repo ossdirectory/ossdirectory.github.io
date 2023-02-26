@@ -3,3 +3,9 @@ description: Add a new Product
 title: "[Product] <title>"
 labels: [Product]
 body:
+- type: textarea
+  attributes:
+    label: Description - DE
+    description: A concise description in German.
+  validations:
+    required: true

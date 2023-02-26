@@ -3,3 +3,9 @@ description: Add a new User
 title: "[User] <title>"
 labels: [User]
 body:
+- type: textarea
+  attributes:
+    label: Description - DE
+    description: A concise description in German.
+  validations:
+    required: true

@@ -3,3 +3,9 @@ description: Add a new Know-How
 title: "[Know-How] <title>"
 labels: [Know-How]
 body:
+- type: textarea
+  attributes:
+    label: Description - DE
+    description: A concise description in German.
+  validations:
+    required: true
