@@ -1,9 +1,14 @@
 ---
-title: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
+title: "Open Source Business Alliance"
+tagline: "Bundesverband für digitale Souveränität e.V."
 layout: page
 external-url: "https://osb-alliance.de"
+external-logo: "https://osb-alliance.de/wp-content/uploads/2020/04/osba-logo-claim.svg"
 ---
-[![](https://osb-alliance.de/wp-content/uploads/2020/04/osba-logo-claim.svg)]({{ page.external-url }})
+
+[![]({{ page.external-logo }})]({{ page.external-url }})
+
+{{ page.tagline }}
 
 <h2>Events</h2>
 
