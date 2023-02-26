@@ -1,2 +1,6 @@
-- identifier: adfinis
-- identifier: baloise
+- name: Adfinis
+  identifier: adfinis
+  country: ch
+- name: Baloise
+  identifier: baloise
+  country: ch
