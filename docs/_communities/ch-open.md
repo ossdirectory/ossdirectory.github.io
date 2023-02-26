@@ -9,7 +9,7 @@ external-url: "https://www.ch-open.ch"
 
 {{ page.description }}
 
-<h2>Posts</h2>
+<h2>Events</h2>
 
 <ul>
   {% for post in site.categories.ch-open %}
