@@ -25,6 +25,8 @@ header_pages:
 collections:
   communities:
     output: true
+  vendors:
+    output: true
 
 future: true
 
