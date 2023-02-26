@@ -6,7 +6,7 @@ external-url: "https://www.ch-open.ch"
 external-logo: "https://www.ch-open.ch/wp-content/uploads/2019/04/logo_chopen_web_big-1.png"
 ---
 
-[![](page.external-logo)]({{ page.external-url }})
+[![]({{ page.external-logo }})]({{ page.external-url }})
 
 {{ page.description }}
 
