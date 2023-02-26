@@ -1,14 +1,14 @@
 ---
 title: "CH Open"
 layout: page
-description: "Verein zur Förderung von Open Source Software und offenen Standards in der Schweiz"
+tagline: "Verein zur Förderung von Open Source Software und offenen Standards in der Schweiz"
 external-url: "https://www.ch-open.ch"
 external-logo: "https://www.ch-open.ch/wp-content/uploads/2019/04/logo_chopen_web_big-1.png"
 ---
 
 [![]({{ page.external-logo }})]({{ page.external-url }})
 
-{{ page.description }}
+{{ page.tagline }}
 
 <h2>Events</h2>
 
