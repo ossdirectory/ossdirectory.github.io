@@ -37,7 +37,7 @@ author:
 
 minima:
   skin: classic
-  date_format: "%b %-d, %Y"
+  date_format: "'%d.%m.%Y'"
   social_links:
     - { platform: github, user_url: "https://github.com/ossdirectory/ossdirectory.github.io/issues/new/choose" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/company/ch-open/" }
